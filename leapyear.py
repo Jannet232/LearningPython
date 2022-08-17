@@ -24,17 +24,17 @@ while i == 'Y' or i == 'y':
     if centremainder == 0:
         remainder = year % 400
         if remainder == 0:
-            print(f'{year} is a leap year as its divisible by 400.')
+            print(f"""{year} is a leap year as it's divisible by 400.""")
         else:
-            print(f'{year} is not a leap year as its divisible by 100 but not by 400.')
+            print(f"""{year} is not a leap year as it's divisible by 100 but not by 400.""")
     #STEP 8: If year is not a century year then if year is divisible by 4 it is a leap
     #If year is not divisible by 4 then it is not a leap year
     else:
         remainder = year % 4
         if remainder == 0:
-            print(f'{year} is a leap year as its divisible by 4 but not by 100 or 400.')
+            print(f"""{year} is a leap year as it's divisible by 4 but not by 100 or 400.""")
         else:
-            print(f'{year} is not a leap as its not divisible by 4 or 400. ')
+            print(f"""{year} is not a leap as it's not divisible by 4 or 400.""")
 
     #STEP 9: Ask user if they want to continue using the functionality for other years
-    i = input(print('Do you want to use the functionality with another year (Y or N): '))
+    i = input('Do you want to use the functionality with another year (Y or N): ')
