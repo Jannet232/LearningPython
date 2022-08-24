@@ -29,5 +29,4 @@ if length % 2 == 0:
     print(f"""Middle characters in '{input_string}' are {mid_character_1} and {mid_character_2}  \n________________________________________________________""")
 elif length % 2 != 0:
     mid_character = input_string[mid_index]
-    print(
-        f"""Middle character in '{input_string}' is {mid_character}  \n________________________________________________________""")
+    print(f"""Middle character in '{input_string}' is {mid_character}  \n________________________________________________________""")
