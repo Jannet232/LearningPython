@@ -10,8 +10,7 @@ slice_fl = input_string[1:-1]
 print(f"""Slice of '{input_string}' after removing first and last characters is '{slice_fl}' \n__________________________________________________""")
 
 #STEP 4: Slice of string after removing the first 2 characters (f2)
-#Can I
-slice_f2 = input_string[2:length]
+slice_f2 = input_string[2:]
 print(f"""Slice of '{input_string}' after removing first 2 characters is '{slice_f2}' \n__________________________________________________""")
 
 #STEP 5: Slice of string after removing the last 2 characters (l2)
