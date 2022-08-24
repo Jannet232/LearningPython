@@ -6,7 +6,7 @@ print(f'You entered : {input_string} \n_________________________________________
 length = len(input_string)
 
 #STEP 3: Slice of the string after removing first(f) and last(l) character
-slice_fl = input_string[1:length-1]
+slice_fl = input_string[1:-1]
 print(f"""Slice of '{input_string}' after removing first and last characters is '{slice_fl}' \n__________________________________________________""")
 
 #STEP 4: Slice of string after removing the first 2 characters (f2)
@@ -14,7 +14,7 @@ slice_f2 = input_string[2:length]
 print(f"""Slice of '{input_string}' after removing first 2 characters is '{slice_f2}' \n__________________________________________________""")
 
 #STEP 5: Slice of string after removing the last 2 characters (l2)
-slice_l2 = input_string[0:length-2]
+slice_l2 = input_string[0:-2]
 print(f"""Slice of '{input_string}' after removing last 2 characters is '{slice_l2}' \n__________________________________________________""")
 
 #STEP 6: Find middle index of string
