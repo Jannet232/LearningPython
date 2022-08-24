@@ -27,6 +27,6 @@ print(f"""Mid index is {mid_index} \n___________________________________________
 #If length of string is odd then second slice has will have one character more than the first
 slice_1 = input_string[0:mid_index]
 slice_2 = input_string[mid_index:length]
-print(f"""First half slice of '{input_string}' is '{slice_1}'""")
-print(f"""Second half slice of '{input_string}' is '{slice_2}'  \n________________________________________________________""")
+print(f"""First-half slice of '{input_string}' is '{slice_1}'""")
+print(f"""Second-half slice of '{input_string}' is '{slice_2}'  \n________________________________________________________""")
 
