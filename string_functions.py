@@ -19,3 +19,4 @@ print(f'Applying method title() on string \n {new_string}')
 new_string = input_string.swapcase()
 print(f'Applying method swapcase() on string \n {new_string}')\
 
+
