@@ -31,5 +31,12 @@ elif first_num == 0 and count > 1:
     print(b)
     count -= 1
     fibonacci(a,b,count)
-#else:
-#    fib(first_num,n)
+else:
+    c = 1
+    while first_num != c:
+        c = a + b
+        a = b
+        b = c
+    print(c)
+    count -= 1
+    fibonacci(a,b,count)
